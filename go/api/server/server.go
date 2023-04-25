@@ -19,8 +19,7 @@ func Serve(s ServerConfig) {
 	counter := counter.Counter(0)
 
 	router := mux.NewRouter()
-	router.HandleFunc("/", counter.Count()).Methods("GET")
-	// router.HandleFunc("/metrics", counter.GetMetrics()).Methods("GET")
+	router.HandleFunc("/metrics", counter.Count()).Methods("GET")
 
 	port := fmt.Sprintf(":%s", s.Port)
 	log.Printf("Listening at %s%s\n", s.Url, port)

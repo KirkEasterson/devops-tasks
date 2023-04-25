@@ -15,9 +15,3 @@ func (c *Counter) Count() http.HandlerFunc {
 		_, _ = w.Write([]byte(stringCountValue))
 	}
 }
-
-// func (c *Counter) GetMetrics() http.HandlerFunc {
-// 	return func(w http.ResponseWriter, r *http.Request) {
-// 		json.NewEncoder(w).Encode(result)
-// 	}
-// }
