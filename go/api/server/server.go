@@ -2,7 +2,7 @@ package server
 
 import (
 	"fmt"
-	"gotask/api/controller"
+	"gocounter/api/controller"
 	"log"
 	"net/http"
 

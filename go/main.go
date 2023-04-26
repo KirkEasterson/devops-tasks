@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"gotask/api/server"
+	"gocounter/api/server"
 )
 
 type CmdArgs struct {
