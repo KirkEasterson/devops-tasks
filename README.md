@@ -28,6 +28,7 @@ curl http://localhost:8080/metrics/
 
 - For reference:
     - https://www.middlewareinventory.com/blog/deploy-docker-image-to-kubernetes/
+    - https://docs.docker.com/get-started/kube-deploy/
 
 ```
 minikube start
