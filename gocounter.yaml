@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gocounter-pod
+spec:
+  containers:
+    - name: gocounter01
+      image: kirkeasterson/gocounter:latest
+      ports:
+        - containerPort: 8080
