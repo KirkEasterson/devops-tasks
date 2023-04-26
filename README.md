@@ -11,7 +11,8 @@ curl http://localhost:8080/metrics/
 
 ### docker
 
-- For reference https://docs.docker.com/language/golang/build-images/
+- For reference:
+    - https://docs.docker.com/language/golang/build-images/
 
 ```
 docker build -t gocounter .
@@ -24,6 +25,10 @@ curl http://localhost:8080/metrics/
 ```
 
 ### kubernetes
+
+- For reference:
+    - https://www.middlewareinventory.com/blog/deploy-docker-image-to-kubernetes/
+
 ```
 minikube start
 minikube addons enable metrics-server # optional
